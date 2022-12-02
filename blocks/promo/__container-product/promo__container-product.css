@@ -1,15 +1,15 @@
-.product__container {
-    max-width: 920px;
-    margin: 0 auto;
+.promo__container-product {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: 30px;
     column-gap: 100px;
 }
 
 @media screen and (max-width: 650px) {
-    .product__container {
+    .promo__container-product {
         flex-direction: column;
-        row-gap: 25px;
+        row-gap: 30px;
     }
 }

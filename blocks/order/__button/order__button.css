@@ -1,3 +1,7 @@
 .order__button {
-   margin-top: 20px; 
+   margin-top: 20px;
+   
+   max-width: 200px;
+   outline: none;
+   border: none;
 }

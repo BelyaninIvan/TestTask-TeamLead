@@ -101,39 +101,6 @@
     opacity: 1;
   }
   
-  /* line 86, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
-  .main-column-right .owl-carousel.owl-theme .owl-nav button.owl-prev,
-  .main-column-right .owl-carousel.owl-theme .owl-nav button.owl-next {
-    display: block;
-    height: 40px;
-    width: 40px;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    border-radius: 50%;
-  }
-  
-  /* line 100, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
-  .main-column-right .owl-carousel.owl-theme .owl-nav button.owl-prev {
-    left: 10px;
-    background-image: url('./../../images/arrow-left.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 15px 15px;
-  }
-  
-  /* line 108, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
-  .main-column-right .owl-carousel.owl-theme .owl-nav button.owl-next {
-    right: 10px;
-    background-image: url('./../../images/arrow-right.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 15px 15px;
-  }
-  
   /* line 117, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
   .main-column-right .owl-theme .owl-dots {
     text-align: center;
@@ -143,3 +110,17 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+@media screen and (max-width: 650px) {
+  .owl-carousel.owl-theme .owl-nav button.owl-prev,
+  .owl-carousel.owl-theme .owl-nav button.owl-next {
+    height: 25px;
+    width: 25px;
+  }
+
+  .owl-carousel.owl-theme .owl-nav button.owl-prev,
+  .owl-carousel.owl-theme .owl-nav button.owl-next {
+    background-size: 13px 13px;
+  }
+
+}

@@ -6,13 +6,15 @@
 @import url('../blocks/button/button.css');
 
 @import url('../blocks/promo/promo.css');
+@import url('../blocks/promo/__container/promo__container.css');
 @import url('../blocks/promo/__video/promo__video.css');
 @import url('../blocks/promo/__title/promo__title.css');
-@import url('../blocks/promo/__container/promo__container.css');
+@import url('../blocks/promo/__container-product/promo__container-product.css');
 @import url('../blocks/promo/__image/promo__image.css');
 @import url('../blocks/promo/__list/promo__list.css');
 @import url('../blocks/promo/__list-item/promo__list-item.css');
 @import url('../blocks/promo/__text/promo__text.css');
+@import url('../blocks/promo/__item-button/promo__item-button.css');
 
 @import url('../blocks/structure/structure.css');
 @import url('../blocks/structure/__container/structure__container.css');
@@ -57,3 +59,4 @@
 @import url('../blocks/animation/animation.css');
 @import url('../blocks/owl-carousel/owl-carousel.css');
 
+@import url('./jquery.countdown.css');

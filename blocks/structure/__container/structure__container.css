@@ -6,3 +6,19 @@
     column-gap: 100px;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .structure__container {
+        column-gap: 25px;
+        grid-template-columns: repeat(3, 170px);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .structure__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+}
