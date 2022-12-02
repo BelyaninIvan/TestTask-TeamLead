@@ -1,0 +1,11 @@
+.order__price-container {
+    position: relative;
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 15px 20px;
+    background: hsla(46, 100%, 60%, 0.5);
+    border-radius: 15px;
+}

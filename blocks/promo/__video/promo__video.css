@@ -1,0 +1,8 @@
+.promo__video {
+    top: 0; 
+    left: 0;
+    position: absolute;
+
+    opacity: 0.3;
+    z-index: -1;
+}

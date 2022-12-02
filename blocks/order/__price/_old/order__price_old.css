@@ -1,0 +1,15 @@
+.order__price_old {
+    margin: 0;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.order__price_old::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    transform: translateY(15px) rotate(160deg);
+}

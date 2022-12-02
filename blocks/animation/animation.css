@@ -1,0 +1,15 @@
+@keyframes animate_grow {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.2, 1.2, 1.2) rotate(-30deg);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+.animation {
+    animation: animate_grow 2s infinite;
+}

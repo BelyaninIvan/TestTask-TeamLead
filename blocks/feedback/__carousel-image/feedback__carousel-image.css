@@ -1,0 +1,5 @@
+.feedback__carousel-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}

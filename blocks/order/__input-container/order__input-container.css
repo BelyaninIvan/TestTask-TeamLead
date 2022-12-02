@@ -1,0 +1,20 @@
+.order__input-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.order__input-container:hover:after {
+    content: attr(data-title);
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    z-index: 1;
+    background: #ffffcc;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 0 10px;
+    box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+    -moz-box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+    -webkit-box-shadow: 5px 5px 8px 0px rgba(119, 119, 119, 0.64);
+   }

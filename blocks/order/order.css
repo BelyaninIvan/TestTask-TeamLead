@@ -1,0 +1,8 @@
+.order {
+    max-width: 1280px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    background: -webkit-linear-gradient(30deg, #ffd977,rgba(0, 0, 0, 0.3));
+    background: linear-gradient(30deg, #ffd977,rgba(0, 0, 0, 0.3));
+}

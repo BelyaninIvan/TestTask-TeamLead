@@ -1,0 +1,8 @@
+.structure__container {
+    max-width: 950px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    column-gap: 100px;
+    justify-content: center;
+}

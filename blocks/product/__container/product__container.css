@@ -1,0 +1,8 @@
+.product__container {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
